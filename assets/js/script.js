@@ -8,6 +8,7 @@ function myFunction(myDropdown) {
 	}
 }
 
+
 // map
 function myMap() {
 	var myCenter = new google.maps.LatLng(55.755826, 37.617299900000035);
