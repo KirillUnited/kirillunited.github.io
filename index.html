@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, height=device-height, target-densitydpi=device-dpi, initial-scale=1">
 
-	<title>Главная</title>
+	<title>Главная | Строительная компания</title>
 
 	<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
@@ -21,31 +21,37 @@
 	<header id="top">
 		<div class="menu container">
 			<div class="logo">
-				<a href="" class="logo logo_lg" title="Главная"><img src="assets/img/logo.png"></a>
-				<a href="" class="logo logo_sm" title="Главная"><img src="assets/img/logo-dark.png"></a>
+				<a href="index.html" class="logo logo_lg" title="Главная"><img src="assets/img/logo.png"></a>
+				<a href="index.html" class="logo logo_sm" title="Главная"><img src="assets/img/logo-dark.png"></a>
 			</div>
 			<ul class="main-menu">
 				<li><a href="#about">о компании</a></li>
-				<li><a href="">наши услуги</a>
+				<li><a href="service.html">наши услуги</a>
 					<ul class="sub-menu">
-						<li><a href="">Архитектурное проектирование</a></li>
-						<li><a href="">Реконструкция существующих зданий и сооружений</a></li>
-						<li><a href="">Техническое заключение конструкций, экспертиза</a></li>
-						<li><a href="">Капитальный и текущий ремонт помещений любого назначения</a></li>
-						<li><a href="">Малоэтажное строительство</a></li>
-						<li><a href="">Разработка и согласование проектной документации</a></li>
+						<li><a href="service.html#collapse-1">Архитектурное проектирование</a></li>
+						<li><a href="service.html#collapse-2">Реконструкция существующих зданий и сооружений</a></li>
+						<li><a href="service.html#collapse-3">Техническое заключение конструкций, экспертиза</a></li>
+						<li><a href="service.html#collapse-4">Капитальный и текущий ремонт помещений любого назначения</a></li>
+						<li><a href="service.html#collapse-5">Малоэтажное строительство</a></li>
+						<li><a href="service.html#collapse-6">Разработка и согласование проектной документации</a></li>
 					</ul>
 				</li>
 				<li><a href="#project">проекты</a></li>
-				<li><a href="#news">статьи</a></li>
+				<li><a href="news.html">статьи</a></li>
 				<li><a href="#contact">контакты</a></li>
-				<li><a href="" class="icon" onclick="myFunction('myDropdown'); return(false)">MENU</a></li>
+				<li><a href="" class="icon" onclick="myFunction('myDropdown'); return(false)">
+					<button type="button" class="navbar-toggle">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> 
+                  </button>
+				</a></li>
 			</ul>
 			<div class="responsive-menu" id="myDropdown" style="display: none;">
-				<a href="#about">о компании</a>
-				<a href="#service">наши услуги</a>
-				<a href="#project">объекты</a>
-				<a href="#news">статьи</a>
+				<a href="index.html#about">о компании</a>
+				<a href="service.html">наши услуги</a>
+				<a href="index.html#project">проекты</a>
+				<a href="news.html">статьи</a>
 				<a href="#contact">контакты</a>
 			</div>
 		</div>
@@ -355,89 +361,6 @@
 		</div>
 	</section>
 
-	<!-- NEWS -->
-	<div id="news"></div>
-	<section class="news">
-		<div class="container text-center">
-			<h3>Статьи</h3>
-			<hr>
-		</div>
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-4">
-					<a href="#news1" data-toggle="collapse">
-						<div class="thumbnail">
-							<img src="assets/img/news1.jpg" alt="Андрейково" title="Андрейково">
-							<h4>В Андрейково закончены кровельные работы</h4>
-						</div>
-					</a>
-					<div id="news1" class="collapse">
-						<p>За прошедшее время наши строители сделали кровлю. И приступают к установке окон и внутренней отделке.</p>
-					</div>
-				</div>
-				<div class="col-sm-4">
-					<a href="#news2" data-toggle="collapse">
-						<div class="thumbnail">
-							<img src="assets/img/news2.jpg" alt="Можайск" title="Можайск">
-							<h4>В Можайске закончены фасадные работы</h4>
-						</div>
-					</a>
-					<div id="news2" class="collapse">
-						<p>В Можайске наши строители закончили отделку фасада кирпичом. Следующий этап это монтаж окон и установка дверей. Уже начат монтаж инженерных коммуникаций (вода, электричество, газ). Установлен чешский газгольдер VPS 6, для автономного газоснабжения.</p>
-					</div>
-				</div>
-				<div class="col-sm-4">
-					<a href="#news3" data-toggle="collapse">
-						<div class="thumbnail">
-							<img src="assets/img/news3.jpg" alt="Сантория" title="Сантория">
-							<h4>В КП &quot;Сантория&quot; закончили возведение стен из газобетона</h4>
-						</div>
-					</a>
-					<div id="news3" class="collapse">
-						<p>Прошло два с половиной месяца как мы писали о завершении строительство фундамент в КП &quot;Сантория&quot;. И вот наши строители уже закончили возведение двух этажей стен из газобетона Бонолит и приступили к монтажу стропильной системы.</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-4">
-					<a href="#news4" data-toggle="collapse">
-						<div class="thumbnail">
-							<img src="assets/img/news1.jpg" alt="Андрейково" title="Андрейково">
-							<h4>В Андрейково закончены кровельные работы</h4>
-						</div>
-					</a>
-					<div id="news4" class="collapse">
-						<p>За прошедшее время наши строители сделали кровлю. И приступают к установке окон и внутренней отделке.</p>
-					</div>
-				</div>
-				<div class="col-sm-4">
-					<a href="#news5" data-toggle="collapse">
-						<div class="thumbnail">
-							<img src="assets/img/news2.jpg" alt="Можайск" title="Можайск">
-							<h4>В Можайске закончены фасадные работы</h4>
-						</div>
-					</a>
-					<div id="news5" class="collapse">
-						<p>В Можайске наши строители закончили отделку фасада кирпичом. Следующий этап это монтаж окон и установка дверей. Уже начат монтаж инженерных коммуникаций (вода, электричество, газ). Установлен чешский газгольдер VPS 6 м, для автономного газоснабжения.</p>
-					</div>
-				</div>
-				<div class="col-sm-4">
-					<a href="#news6" data-toggle="collapse">
-						<div class="thumbnail">
-							<img src="assets/img/news3.jpg" alt="Сантория" title="Сантория">
-							<h4>В КП &quot;Сантория&quot; закончили возведение стен из газобетона</h4>
-						</div>
-					</a>
-					<div id="news6" class="collapse">
-						<p>Прошло два с половиной месяца как мы писали о завершении строительство фундамент в КП &quot;Сантория&quot;. И вот наши строители уже закончили возведение двух этажей стен из газобетона Бонолит и приступили к монтажу стропильной системы.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-
-	</section>
-	<!-- END NEWS -->
-
 	<!-- CONTACTS -->
 	<div id="contact"></div>
 	<footer>
@@ -446,18 +369,7 @@
 			<p class="text-center"><em>Мы любим наших клиентов!</em></p>
 			<hr>
 			<div class="row">
-				<div class="col-sm-4">
-					<h3 class="text-center">Наши услуги</h3>
-					<ul class="sub-menu">
-						<li><a href="">Архитектурное проектирование</a></li>
-						<li><a href="">Реконструкция существующих зданий и сооружений</a></li>
-						<li><a href="">Техническое заключение конструкций, экспертиза</a></li>
-						<li><a href="">Капитальный и текущий ремонт помещений любого назначения</a></li>
-						<li><a href="">Малоэтажное строительство</a></li>
-						<li><a href="">Разработка и согласование проектной документации</a></li>
-					</ul>
-				</div>
-				<div class="col-sm-4">
+			    <div class="col-sm-4">
 					<h3 class="text-center">Офис в центре новой Москвы</h3>
 					<p><span class="glyphicon glyphicon-map-marker"></span> г. Москва, КП Подмосковные вечера, Россия</p>
 					<p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
@@ -477,10 +389,21 @@
 					<textarea class="form-control" id="comments" name="comments" placeholder="Комментарий" rows="5"></textarea>
 					<div class="row">
 						<div class="col-md-12 form-group">
-							<button class="btn pull-right btn-lg btn-info" type="submit"><span class="glyphicon glyphicon-earphone"></span> Заказать звонок!</button>
+							<button class="btn center-block btn-lg btn-info" type="submit"><span class="glyphicon glyphicon-earphone"></span> Заказать звонок!</button>
 						</div>
 					</div>
 				</div>
+				<div class="col-sm-4">
+					<h3 class="text-center">Наши услуги</h3>
+					<ul class="sub-menu">
+						<li><a href="">Архитектурное проектирование</a></li>
+						<li><a href="">Реконструкция существующих зданий и сооружений</a></li>
+						<li><a href="">Техническое заключение конструкций, экспертиза</a></li>
+						<li><a href="">Капитальный и текущий ремонт помещений любого назначения</a></li>
+						<li><a href="">Малоэтажное строительство</a></li>
+						<li><a href="">Разработка и согласование проектной документации</a></li>
+					</ul>
+				</div>				
 			</div>
 		</div>
 		<div class="container-fluid">

@@ -15,7 +15,6 @@ footer {
 	margin-top: 50px;
 }
 .container-fluid {
-	max-width: 1600px;
 	padding: 0;
 }
 .carousel-indicators {
@@ -47,7 +46,7 @@ footer {
 	text-align: center;
 }
 .about .container .row .col-sm-3 {
-	margin-bottom: 40px;
+	margin-bottom: 0px;
 }
 .project .thumbnail {
     padding: 0 0 15px 0;

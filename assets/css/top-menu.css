@@ -73,7 +73,7 @@ header {
 	width: 5px;
 	height: 5px;
 	top: 22px;
-	left: 117px;
+	left: 125px;
 	-webkit-transform: rotate(135deg);
 	    -ms-transform: rotate(135deg);
 	        transform: rotate(135deg);
@@ -106,6 +106,18 @@ header {
 .logo_sm,
 .main-menu .icon {
 	display: none;
+	padding: 0;
+	height: 53px;
+}
+.navbar-toggle .icon-bar {
+	background-color: #333; 
+}
+.navbar-toggle:hover .icon-bar {
+	background-color: #f2f2f2; 
+}
+.navbar-toggle {
+	margin: 0 auto;
+	height: 53px;
 }
 /*<!-- END TOP MENU -->*/
 
