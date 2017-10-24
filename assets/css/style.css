@@ -37,7 +37,10 @@ footer {
     margin-bottom: 25px;
     width: 100%;
     height: 100%;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
     transition: 0.3s;
+    position: relative;
 }
 .member:hover {
     border-color: #f1f1f1;
@@ -52,10 +55,13 @@ footer {
     padding: 0 0 15px 0;
     border: none;
     border-radius: 0;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
     transition: 0.3s;
 }
 .project .thumbnail:hover {
-    box-shadow: 0 1px 5px 5px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 1px 5px 5px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 1px 5px 5px rgba(0, 0, 0, 0.2);
 }
 .project .thumbnail p {
     margin-top: 15px;
@@ -71,6 +77,8 @@ footer {
     background-color: #333;
     color: #f1f1f1;
     border-radius: 0;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
     transition: .3s;
 }
 .project .modal-footer .btn:hover,
@@ -107,6 +115,8 @@ footer {
 }
 .news .thumbnail {
 	color: #333;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
 	transition: 0.3s;
 	border: 0;
 	border-radius: 0;
@@ -126,6 +136,8 @@ footer {
 }
 footer .container .row .col-sm-4 .sub-menu>li>a{
 	color: #f2f2f2;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
 	transition: 0.3s;
 }
 footer .container .row .col-sm-4 .sub-menu>li>a:hover {
@@ -137,6 +149,70 @@ footer .container .row .col-sm-4 .sub-menu {
 }
 footer .container .row .col-sm-4 .row button {
 	margin-top: 15px;
+}
+footer span.glyphicon-earphone {
+	-webkit-animation: calling 4s ease-in-out infinite;
+	        animation: calling 4s ease-in-out infinite;
+}
+@-webkit-keyframes calling {
+	0% {
+		-webkit-transform: scale(1);
+		        transform: scale(1);
+	}
+	25% {
+		-webkit-transform: scale(1.75);
+		        transform: scale(1.75);
+	}
+	50% {
+		-webkit-transform: scale(1.75) rotate(15deg);
+		        transform: scale(1.75) rotate(15deg);
+	}
+	60% {
+		-webkit-transform: scale(1.75) rotate(0deg);
+		        transform: scale(1.75) rotate(0deg);
+	}
+	70% {
+		-webkit-transform: scale(1.75) rotate(15deg);
+		        transform: scale(1.75) rotate(15deg);
+	}
+	90% {
+		-webkit-transform: scale(1.75) rotate(0deg);
+		        transform: scale(1.75) rotate(0deg);
+	}
+	100% {
+		-webkit-transform: scale(1);
+		        transform: scale(1);
+	}
+}
+@keyframes calling {
+	0% {
+		-webkit-transform: scale(1);
+		        transform: scale(1);
+	}
+	25% {
+		-webkit-transform: scale(1.75);
+		        transform: scale(1.75);
+	}
+	50% {
+		-webkit-transform: scale(1.75) rotate(15deg);
+		        transform: scale(1.75) rotate(15deg);
+	}
+	60% {
+		-webkit-transform: scale(1.75) rotate(0deg);
+		        transform: scale(1.75) rotate(0deg);
+	}
+	70% {
+		-webkit-transform: scale(1.75) rotate(15deg);
+		        transform: scale(1.75) rotate(15deg);
+	}
+	90% {
+		-webkit-transform: scale(1.75) rotate(0deg);
+		        transform: scale(1.75) rotate(0deg);
+	}
+	100% {
+		-webkit-transform: scale(1);
+		        transform: scale(1);
+	}
 }
 #googleMap {
     width: 100%;
