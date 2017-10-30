@@ -25,3 +25,14 @@ a.spoiler.collapsed::after {
 	content: " \f0fe";
 	font-family: "FontAwesome";
 }
+.breadcrumb>li+li:before {
+	content: "\f105";
+	font-family: 'FontAwesome';
+}
+.breadcrumb {
+	margin-top: 20px;
+	background-color: transparent;
+}
+.service .breadcrumb a:hover {
+	text-decoration: none;
+}
